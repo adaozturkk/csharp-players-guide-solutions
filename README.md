@@ -1,3 +1,3 @@
-# C# Player’s Guide – Challenge Solutions
+# C# Playerâ€™s Guide â€“ Challenge Solutions
 
-My solutions to the challenges in the book "C# Player's Guide" by RB Whitaker.
+My solutions to the challenges from the book "C# Player's Guide" by RB Whitaker.
