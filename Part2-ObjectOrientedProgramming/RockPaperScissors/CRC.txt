@@ -1,0 +1,31 @@
+Class: RockPaperScissorsGame
+- Create 2 players.
+- Keep running rounds until window is closed.
+- Track
+Collaborators:
+- Player
+- Round
+- HistoricalRecord
+
+Class: Player
+- Make a move choice.
+Collaborators:
+- Round
+
+Class: Move
+- Three move options available -> Rock, Paper, or Scissors.
+Collaborators:
+- Round
+
+Class: Round
+- According to moves decide which player win.
+- Display winner of round.
+Collaborators:
+- Player
+- Move
+- HistoricalRecord
+
+Class: HistoricalRecord
+- Track number of winners and draw counts.
+Collaborators:
+- Round

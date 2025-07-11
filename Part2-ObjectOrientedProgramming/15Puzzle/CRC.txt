@@ -1,0 +1,31 @@
+Class PuzzleGame:
+- Display current board.
+- If board is ordered correctly display win message.
+- Count number of moves.
+- Create initial board.
+Collaborators:
+- Board
+- Player
+- BoardGenerator
+
+Class Board:
+- Store tiles.
+- Allow changing tile locations.
+Collaborators:
+- Tile
+- Player
+
+Class Tile:
+- Store a number (1 to 15) or empty space value.
+Collaborators:
+- Board
+
+Class Player:
+- Do tile movements.
+Collaborators:
+- Board
+
+Class BoardGenerator:
+- Generates random board.
+Collaborators:
+- Board

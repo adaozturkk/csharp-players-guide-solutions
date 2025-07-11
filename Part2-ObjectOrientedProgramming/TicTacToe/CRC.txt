@@ -1,0 +1,23 @@
+Class: TicTacToeGame
+- Create 2 players.
+- Apply game logic.
+- Switch turns between players.
+- Detect win or no winner (board is full with no winner) situations.
+- Display board after each turn.
+Collaborators:
+- Player
+- GameBoard
+
+Class: Player
+- Store player symbole (X / O).
+Collaborators:
+- TicTacToeGame
+
+Class: GameBoard
+- Use number pad (1 to 9) to map player input.
+- Store and update state of board after each play.
+- Apply player choices as requested and show.
+- If square is occupied player makes another choice.
+- Place player symbols on the board.
+Collaborators:
+- TicTacToeGame

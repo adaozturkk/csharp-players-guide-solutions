@@ -1,0 +1,25 @@
+Class: HangmanGame
+- Get random word.
+- Display current state.
+- Detect win if all letters have been guessed.
+- Detect lose if player out of incorrect guesses.
+Collaborators:
+- PickWord
+- Player
+- Word
+
+Class: PickWord
+- Pick a random world from list.
+Collaborators:
+- HangmanGame
+
+Class: Player
+- Let player pick a letter, if letter already picked pick again.
+Collaborators:
+- HangmanGame
+
+Class: Word
+- Display current state (only currectly guessed letters).
+- Check if word is guessed correctly.
+Collaborators:
+-  HangmanGame
