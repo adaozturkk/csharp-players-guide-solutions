@@ -7,8 +7,6 @@ int currentRound = 1;
 Random random = new Random();
 int stationDistance = random.Next(100);
 
-//Console.WriteLine("Player 2, it is your turn.");
-
 // Apply game logic until manticore or city health is 0.
 while (manticoreHealth > 0 && cityHealth > 0)
 {
